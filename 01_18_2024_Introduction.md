@@ -1,5 +1,5 @@
 # Database Design and Implementation
----
+
 ### <u>*Why do we need to learn databases?*
 ### *Why don't we want to store data in a txt file?*</u>
 ---
@@ -53,3 +53,6 @@
 ### Data Models
 A class of mathematical structures, with **description** and **operations**.
 
+---
+<br>
+<div style="display:relative; text-align: center;">end of document</div>

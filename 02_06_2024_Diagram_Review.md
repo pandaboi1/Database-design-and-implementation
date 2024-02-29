@@ -1,5 +1,5 @@
 # Diagram Review
----
+
 ### 1. Basic Units
 Entity Set: <div style="margin-left: auto; margin-right: auto; width: 30%"> ![Entity Graph](Images\DR1_1.png) </div>
 
@@ -37,4 +37,8 @@ Please complete the E-R Diagram for this University Database. Your E-R Diagram s
 
 <div style="margin-left: auto; margin-right: auto; width: 85%"> 
 
-![E-R Diagram for University Database](Images\DR1_12.png) </div>
+![E-R Diagram for University Database](Images\DR1_12.png) </div><br>
+
+---
+<br>
+<div style="display:relative; text-align: center;">end of document</div>

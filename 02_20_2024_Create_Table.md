@@ -1,4 +1,4 @@
-## Create table
+# Create table
 ..how do we create an actual database on our computers?
 We use SQL, a language that allows us to build, modify and query databases.
 
@@ -239,3 +239,8 @@ CREATE TABLE Trail_Belong(
     PRIMARY KEY(sid),
     FOREIGN KEY pname REFERENCES Park);
 ```
+<br>
+
+---
+<br>
+<div style="display:relative; text-align: center;">end of document</div>
