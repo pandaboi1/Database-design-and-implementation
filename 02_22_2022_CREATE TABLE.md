@@ -22,11 +22,11 @@ CREATE TABLE TableA(
 3. 
 ---
 ## Creating Table Practice
-<div style="margin-left: auto; margin-right: auto; width: 90%"> 
+<div style="margin-left: auto; margin-right: auto; width: 50%"> 
 
 ![PC1](Images\CTP1\CT1.png) </div>
 
-##### Account(<u>id</u> : str, name :str)
+#### Account(<u>id</u> : str, name :str)
 ```SQL
 CREATE TABLE Account(
     id CHAR (10),
@@ -34,7 +34,7 @@ CREATE TABLE Account(
     PRIMARY KEY (id)
 );
 ```
-##### FacultyAcc(salary : num, <u>id</u> : str)
+#### FacultyAcc(salary : num, <u>id</u> : str)
 ```SQL
 CREATE TABLE FacultyAcc(
     salary CHAR (20),
@@ -43,7 +43,7 @@ CREATE TABLE FacultyAcc(
     FOREIGN KEY (id) REFERENCES Account
 );
 ```
-##### StudentAcc(<u>id</u>)
+#### StudentAcc(<u>id</u>)
 ```SQL
 CREATE TABLE StudentAcc(
     id CHAR (10),
@@ -51,7 +51,7 @@ CREATE TABLE StudentAcc(
     FOREIGN KEY (id) REFERENCES Account
 );
 ```
-##### Manager_Man(Name : str, <u>MID</u> : str, days : num, id : str)
+#### Manager_Man(Name : str, <u>MID</u> : str, days : num, id : str)
 ```SQL
 CREATE TABLE (
     Name CHAR (20),
@@ -62,7 +62,7 @@ CREATE TABLE (
     FOREIGN KEY (id) REFERENCES FacultyAcc
 );
 ```
-##### Belong(<u>id</u> : str, DID : str)
+#### Belong(<u>id</u> : str, DID : str)
 ```SQL
 CREATE TABLE Belong(
     id CHAR (10),
@@ -72,7 +72,7 @@ CREATE TABLE Belong(
     FOREIGN KEY (DID) REFERENCES Department
 );
 ```
-##### Department(Name : str, <u>DID</u> : str)
+#### Department(Name : str, <u>DID</u> : str)
 ```SQL
 CREATE TABLE Department(
     Name CHAR (20),
@@ -80,7 +80,7 @@ CREATE TABLE Department(
     PRIMARY KEY (DID)
 );
 ```
-##### OfficeOwn(Name : str, <u>Lot</u> : num, <u>DID</u> : str)
+#### OfficeOwn(Name : str, <u>Lot</u> : num, <u>DID</u> : str)
 ```SQL
 CREATE TABLE OfficeOwn(
     Name CHAR (10),
