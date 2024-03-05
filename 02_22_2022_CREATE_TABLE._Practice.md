@@ -1,4 +1,14 @@
 # CREATE TABLE (SQL)
+# Table of Contents
+- [Table A](#tableaattr1--str-attr-str)
+- [Creating Tables Practice](#creating-tables-practice)
+    - [Account](#accountid--str-name-str)
+    - [FacultyAcc](#facultyaccsalary--num-id--str)
+    - [StudentAcc](#studentaccid)
+    - [Manager_Man](#manager_manname--str-mid--str-days--num-id--str)
+    - [Belong](#belongid--str-did--str)
+    - [Department](#departmentname--str-did--str)
+    - [OfficeOwn](#officeownname--str-lot--num-did--str)
 ---
 ### TableA(<u>attr1</u> : str, attr :str)
 ```SQL
@@ -16,12 +26,7 @@ CREATE TABLE TableA(
 ```
 
 ---
-### Foreign Key enforce idea
-1. 
-2. 
-3. 
----
-## Creating Table Practice
+## Creating Tables Practice
 <div style="margin-left: auto; margin-right: auto; width: 90%"> 
 
 ![PC1](Images\CTP1\CT1.png) </div>
@@ -43,7 +48,7 @@ CREATE TABLE FacultyAcc(
     FOREIGN KEY (id) REFERENCES Account
 );
 ```
-##### StudentAcc(<u>id</u>)
+##### StudentAcc(<u>id</u>) [<i>Click Here For Table</i>](#creating-tables-practice)
 ```SQL
 CREATE TABLE StudentAcc(
     id CHAR (10),
@@ -51,7 +56,7 @@ CREATE TABLE StudentAcc(
     FOREIGN KEY (id) REFERENCES Account
 );
 ```
-##### Manager_Man(Name : str, <u>MID</u> : str, days : num, id : str)
+##### Manager_Man(Name : str, <u>MID</u> : str, days : num, id : str) [<i>Click Here For Table</i>](#creating-tables-practice)
 ```SQL
 CREATE TABLE (
     Name CHAR (20),
@@ -62,7 +67,7 @@ CREATE TABLE (
     FOREIGN KEY (id) REFERENCES FacultyAcc
 );
 ```
-##### Belong(<u>id</u> : str, DID : str)
+##### Belong(<u>id</u> : str, DID : str) [<i>Click Here For Table</i>](#creating-tables-practice)
 ```SQL
 CREATE TABLE Belong(
     id CHAR (10),
@@ -72,7 +77,7 @@ CREATE TABLE Belong(
     FOREIGN KEY (DID) REFERENCES Department
 );
 ```
-##### Department(Name : str, <u>DID</u> : str)
+##### Department(Name : str, <u>DID</u> : str) [<i>Click Here For Table</i>](#creating-tables-practice)
 ```SQL
 CREATE TABLE Department(
     Name CHAR (20),
@@ -80,7 +85,7 @@ CREATE TABLE Department(
     PRIMARY KEY (DID)
 );
 ```
-##### OfficeOwn(Name : str, <u>Lot</u> : num, <u>DID</u> : str)
+##### OfficeOwn(Name : str, <u>Lot</u> : num, <u>DID</u> : str) [<i>Click Here For Table</i>](#creating-tables-practice)
 ```SQL
 CREATE TABLE OfficeOwn(
     Name CHAR (10),

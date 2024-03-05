@@ -1,11 +1,17 @@
 # Diagram Review
-
+# Table of Contents
+- [Basic Units](#1-basic-units)
+- [Constraints (Key)](#2-constraints-key)
+- [Constraint (Participation)](#3-constraint-participation)
+- [Advanced E-R diagram](#4-advanced-e-r-diagram)
+---
 ### 1. Basic Units
 Entity Set: <div style="margin-left: auto; margin-right: auto; width: 30%"> ![Entity Graph](Images\DR1_1.png) </div>
 
 Relationship Set:<div style="margin-left: auto; margin-right: auto; width: 30%"> ![Relationship Graph](Images\RP_2.png) </div>
 
-### 2. Constraints (Key) -> at most one -> <= 1
+### 2. Constraints (Key) 
+-> at most one -> <= 1
 one-to-one<div style="margin-left: auto; margin-right: auto; width: 30%"> ![one-to-one graph](Images\DR1_3.png) </div>
 one-to-many<div style="margin-left: auto; margin-right: auto; width: 30%"> ![one-to-many graph](Images\DR1_4.png) </div>
 many-to-one<div style="margin-left: auto; margin-right: auto; width: 30%"> ![many-to-one graph](Images\DR1_5.png) </div>

@@ -1,7 +1,22 @@
 # Create table
 ..how do we create an actual database on our computers?
 We use SQL, a language that allows us to build, modify and query databases.
-
+---
+# Table of Contents
+- [SQL (Stuctured Query Language)](#sql-stuctured-query-language)
+- [Create Table Statement](#create-table-statment)
+- [Constraints](#constraints)
+- [To SQL Statement](#to-sql-statment)
+- [Creating a Table](#create-table-1)
+- [Relationship: Tanslate to Table](#relationship-translate-to-table)
+- [Key Constraints](#key-constraints)
+- [Primary Constraint](#primary-constraint)
+- [Recursive Relationship with Roles](#recursive-relationship-with-roles)
+- [Weak Entities](#weak-entities)
+- [Translating Weak Entity Sets](#translating-weak-entity-sets)
+- [ISA ('is a' Hierarchies)](#isa-is-a-hierarchies)
+- [Practice](#practice)
+---
 ##### professor(<u>PID</u>:string, name:string)<div style="margin-left: auto; margin-right: auto; width: 60%"> ![SQL Table 1](Images\CT\CT_1.png) </div>
 
 ---
@@ -18,7 +33,7 @@ Create Table Statment consists:
 - Primary Key
 - Foreign Key
 ---
-#### Constraints
+### Constraints
 **Primary Key**: The (combination of) attributes that can uniquely define each record in a table.
 **Foreign Key**: 
 - The (combination of) attributes that are "borrow" form another table.All the values in these attribute(s) should be existed in another table.
@@ -73,7 +88,7 @@ CREATE TABLE Table_Name
 );
 ```
 ---
-### Relationship: Translate to
+### Relationship: Translate to Table
 <div style="margin-left: auto; margin-right: auto; width: 70%"> 
 
 ![Entity Set 1](Images\CT\CT_3.png) </div>
@@ -151,6 +166,7 @@ Does every department have a manager?
     FOREIGN KEY (supervisor_ssn) REFERENCES Employees(ssn),
     FOREIGN KEY (subordinate_ssn) REFERENCES Employees(ssn));
 ```
+
 ---
 ### Weak Entities
 - A <span style="color:blue">weak entity</span> can be identified uniquely only by considering the primary key of another (owner) entity.

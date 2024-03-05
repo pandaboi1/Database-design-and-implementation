@@ -1,5 +1,15 @@
 # Normalization 1
-
+# Table of Contents
+- [Question](#question)
+- [What is Degree, Cardinality, and Size of Table](#what-is-the-degree-cardinality-and-size-of-alltrail-table)
+- [Another D/C/S of Table](#what-about-this)
+- [Redundancy is the Enemy](#redundancy-is-the-enemy)
+- [Normalization](#normaliztion)
+- [Decomposition](#what-do-we-do-decomposition)
+- [Redundancy](#redundancy)
+- [Another issue](#whats-the-problem-again)
+- [If Redundancy](#what-to-do-if-you-see-redundancy)
+---
 ### Think about our previous examples
 <div style="margin-left: auto; margin-right: auto; width: 380px">
 
@@ -30,6 +40,7 @@ Degree = 7 <br>Cardinality = 264+373+224 = 861 <br>Size = 6027
 <div style="margin-left: auto; margin-right: auto; width: 80%"><br><img alt="Maps" src="Images\N1\N1_1.png"></img><br></div>
 
 ### What is the ***degree***, ***cardinality***, and ***size***?
+
 #### Trail(Pname:str, <u>tid</u>:str, length:num, rating:num, difficulty:str)
 5 (parameters in Trail)  * 681 (number of trails (264 + 373 + 224)) = **3405 Degree**
 #### AllTrail(<u>Pname</u>: str, State: str, Est : date)

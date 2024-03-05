@@ -1,5 +1,7 @@
 # Normalization 2
-
+# Table of Contents
+- [Proposition & Q](#proposition--q)
+---
 ## Proposition & Q
 P - It is raining today
 - T: raining

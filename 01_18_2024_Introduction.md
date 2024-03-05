@@ -1,5 +1,12 @@
 # Database Design and Implementation
 
+# <u>Table of Contents</u>
+- [Questions](#why-do-we-need-to-learn-databases)
+- [Databases has](#databases-have)
+- [Database Users](#database-users)
+- [Database Models](#data-models)
+---
+
 ### <u>*Why do we need to learn databases?*
 ### *Why don't we want to store data in a txt file?*</u>
 ---

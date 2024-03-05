@@ -1,4 +1,8 @@
 # Relational Model 1
+# Table of Contents
+- [Relatiation](#relations)
+- [E-R Diagram Translation](#e-r-diagram-translation)
+---
 
 <div style="margin-left: auto; margin-right: auto; width: 40%"> 
 
@@ -43,7 +47,7 @@ Of course, we don’t count the row of <span style="color:red">the attribute nam
 
 ---
 ## E-R Diagram Translation 
-###TableName(Attrl : domain, Attr2 : domain, ... )
+### TableName(Attrl : domain, Attr2 : domain, ... )
 <div style="margin-left: auto; margin-right: auto; width: 70%"> 
 
 ![ERD](Images\RM1_2.png) </div>
