@@ -14,6 +14,8 @@
 - Given F = {A -> B, B -> C}. Compute F^+ (with attributes A, B, C)
 
 - An entry with (sqrt smbol) means FD (the row) -> (the colomn) is in F^+.
-- An entry get (sqrt symbol) when (the colomn) is in (the row)^+
+- An entry get (sqrt symbol) when (the column) is in (the row)^+
 ---
 ## 
+
+![Letters and Number](Morse-Code-Letters-and-Numbers.jpg)

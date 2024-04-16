@@ -21,7 +21,7 @@
 </div>
 <div style="margin-left: auto; margin-right: auto; width: 80%"><br><img alt="Maps" src="Images\N1\N1_1.png"></img><br></div>
 
-##### Degree: 3, # of colomns
+##### Degree: 3, # of columns
 ##### Cardinality: 3, # of rows (NOT including Title Names)
 ##### Size: 3 * 3 = 9, (# of cols) * (# of rows)
 ---
@@ -48,10 +48,7 @@ Degree = 7 <br>Cardinality = 264+373+224 = 861 <br>Size = 6027
 #### 3405 (Trail) + 9 (AllTrail) = **3405 Total Size**
 ---
 ### Redundancy is the Enemy
-<div style="margin-left: auto; margin-right: auto; width: 90%"> <img alt="Too long of Entity Set" src="Images\N1\N1_4.png"></img></div>
-
----
-### Normaliztion
+<div style="margin-left: auto; margin-right: auto; width: 90%"> <img alt="Too long of Entity Set" src="Images\N1\N1_4.png"></img></div>Normalization
 - Consider relation obtained
     - Hourly_Emps(ssn, name, lot, rating, hrly_wage, hrs_worked)
     - Call it **SNLRHW**

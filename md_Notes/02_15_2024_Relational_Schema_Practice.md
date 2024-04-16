@@ -1,4 +1,4 @@
-# Realtional Schema Practice
+# Relational Schema Practice
 # Table of Contents
 - [Entity Set](#1-entity-set-erd)
 - [Relationship](#2-relationship-rd-rd)

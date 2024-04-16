@@ -3,7 +3,7 @@
 We use SQL, a language that allows us to build, modify and query databases.
 ---
 # Table of Contents
-- [SQL (Stuctured Query Language)](#sql-stuctured-query-language)
+- [SQL (Structured Query Language)](#sql-structured-query-language)
 - [Create Table Statement](#create-table-statment)
 - [Constraints](#constraints)
 - [To SQL Statement](#to-sql-statment)
@@ -20,7 +20,7 @@ We use SQL, a language that allows us to build, modify and query databases.
 ##### professor(<u>PID</u>:string, name:string)<div style="margin-left: auto; margin-right: auto; width: 60%"> ![SQL Table 1](Images\CT\CT_1.png) </div>
 
 ---
-### SQL (Stuctured Query Language)
+### SQL (Structured Query Language)
 - SQL is a language that allows us to build, modify and query databases.
 - SQL is an ANSI standard language.(American National Standards Institute)
 - SQL is the "engine" behind Oracle, Microsoft SQL Server, etc..

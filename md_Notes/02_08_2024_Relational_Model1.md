@@ -1,6 +1,6 @@
 # Relational Model 1
 # Table of Contents
-- [Relatiation](#relations)
+- [Relation](#relations)
 - [E-R Diagram Translation](#e-r-diagram-translation)
 ---
 
@@ -21,9 +21,9 @@ A **relation schema** is essentially a list of column names with their
 data types. In this case…
 students(name : string, S.S.N, Street, city)
 
-A schema also specifies the name of each **field**, and its domain. **Fields** are often refered to as columns, attributes, dimensinos
+A schema also specifies the name of each **field**, and its domain. **Fields** are often referred to as columns, attributes, dimensions
 
-**Primary key**: just like ER diagram. Remember that the primary key may be combinationof two or more fields
+**Primary key**: just like ER diagram. Remember that the primary key may be combination of two or more fields
 
 A **relation instance** is made up of zero or more **tuples** (rows, records)
 
