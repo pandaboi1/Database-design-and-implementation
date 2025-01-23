@@ -29,7 +29,7 @@ CREATE TABLE TableA(
 ## Creating Tables Practice
 <div style="margin-left: auto; margin-right: auto; width: 90%"> 
 
-![PC1](Images\CTP1\CT1.png) </div>
+![PC1](./Images/CTP1\CT1.png) </div>
 
 #### Account(<u>id</u> : str, name :str)
 ```SQL

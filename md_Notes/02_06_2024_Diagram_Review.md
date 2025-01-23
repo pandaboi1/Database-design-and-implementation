@@ -6,25 +6,25 @@
 - [Advanced E-R diagram](#4-advanced-e-r-diagram)
 ---
 ### 1. Basic Units
-Entity Set: <div style="margin-left: auto; margin-right: auto; width: 30%"> ![Entity Graph](Images\DR1_1.png) </div>
+Entity Set: <div style="margin-left: auto; margin-right: auto; width: 30%"> ![Entity Graph](./Images/DR1_1.png) </div>
 
-Relationship Set:<div style="margin-left: auto; margin-right: auto; width: 30%"> ![Relationship Graph](Images\RP_2.png) </div>
+Relationship Set:<div style="margin-left: auto; margin-right: auto; width: 30%"> ![Relationship Graph](./Images/RP_2.png) </div>
 
 ### 2. Constraints (Key) 
 -> at most one -> <= 1
-one-to-one<div style="margin-left: auto; margin-right: auto; width: 30%"> ![one-to-one graph](Images\DR1_3.png) </div>
-one-to-many<div style="margin-left: auto; margin-right: auto; width: 30%"> ![one-to-many graph](Images\DR1_4.png) </div>
-many-to-one<div style="margin-left: auto; margin-right: auto; width: 30%"> ![many-to-one graph](Images\DR1_5.png) </div>
-many-to-many<div style="margin-left: auto; margin-right: auto; width: 30%"> ![many-to-many graph](Images\DR1_6.png) </div>
+one-to-one<div style="margin-left: auto; margin-right: auto; width: 30%"> ![one-to-one graph](./Images/DR1_3.png) </div>
+one-to-many<div style="margin-left: auto; margin-right: auto; width: 30%"> ![one-to-many graph](./Images/DR1_4.png) </div>
+many-to-one<div style="margin-left: auto; margin-right: auto; width: 30%"> ![many-to-one graph](./Images/DR1_5.png) </div>
+many-to-many<div style="margin-left: auto; margin-right: auto; width: 30%"> ![many-to-many graph](./Images/DR1_6.png) </div>
 
 ### 3. Constraint (Participation)
--> at least one -> >= 1<div style="margin-left: auto; margin-right: auto; width: 30%"> ![constraint participation graphs](Images\DR1_7.png) </div>
+-> at least one -> >= 1<div style="margin-left: auto; margin-right: auto; width: 30%"> ![constraint participation graphs](./Images/DR1_7.png) </div>
 
 ### 4. Advanced E-R Diagram
-Weak Entity<div style="margin-left: auto; margin-right: auto; width: 50%"> ![Weak Entity graph](Images\DR1_8.png) </div>
- Recursive Relationship<div style="margin-left: auto; margin-right: auto; width: 30%"> ![Recursive Relationship graph ](Images\DR1_9.png) </div>
-Ternary Relationship (not going to be in exam)<div style="margin-left: auto; margin-right: auto; width: 30%"> ![Ternary Relationship graph](Images\DR1_10.png) </div>
-Is A Relationship<div style="margin-left: auto; margin-right: auto; width: 30%"> ![Is A Relationship](Images\DR1_11.png) </div>
+Weak Entity<div style="margin-left: auto; margin-right: auto; width: 50%"> ![Weak Entity graph](./Images/DR1_8.png) </div>
+ Recursive Relationship<div style="margin-left: auto; margin-right: auto; width: 30%"> ![Recursive Relationship graph ](./Images/DR1_9.png) </div>
+Ternary Relationship (not going to be in exam)<div style="margin-left: auto; margin-right: auto; width: 30%"> ![Ternary Relationship graph](./Images/DR1_10.png) </div>
+Is A Relationship<div style="margin-left: auto; margin-right: auto; width: 30%"> ![Is A Relationship](./Images/DR1_11.png) </div>
 
 ---
 ##Q1:
@@ -43,7 +43,7 @@ Please complete the E-R Diagram for this University Database. Your E-R Diagram s
 
 <div style="margin-left: auto; margin-right: auto; width: 85%"> 
 
-![E-R Diagram for University Database](Images\DR1_12.png) </div><br>
+![E-R Diagram for University Database](./Images/DR1_12.png) </div><br>
 
 ---
 <br>

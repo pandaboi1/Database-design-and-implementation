@@ -17,7 +17,7 @@ We use SQL, a language that allows us to build, modify and query databases.
 - [ISA ('is a' Hierarchies)](#isa-is-a-hierarchies)
 - [Practice](#practice)
 ---
-##### professor(<u>PID</u>:string, name:string)<div style="margin-left: auto; margin-right: auto; width: 60%"> ![SQL Table 1](Images\CT\CT_1.png) </div>
+##### professor(<u>PID</u>:string, name:string)<div style="margin-left: auto; margin-right: auto; width: 60%"> ![SQL Table 1](./Images/CT\CT_1.png) </div>
 
 ---
 ### SQL (Structured Query Language)
@@ -74,7 +74,7 @@ Create Table Statment consists:
 ### Create Table
 <div style="margin-left: auto; margin-right: auto; width: 70%"> 
 
-![SQL Table 1](Images\CT\CT_2.png) </div>
+![SQL Table 1](./Images/CT\CT_2.png) </div>
 ##### Professor(name : string, <u>SSN</u> : string, DoB : date)
 ***SQL***
 ```SQL
@@ -91,7 +91,7 @@ CREATE TABLE Table_Name
 ### Relationship: Translate to Table
 <div style="margin-left: auto; margin-right: auto; width: 70%"> 
 
-![Entity Set 1](Images\CT\CT_3.png) </div>
+![Entity Set 1](./Images/CT\CT_3.png) </div>
 #### Work(<u>SSN</u> : string, <u>did</u> : string)
 ```SQL
 CREATE TABLE Work(
@@ -111,7 +111,7 @@ CREATE TABLE Work(
 Each dept has at most one manager, according to the <u style="color:blue"><i>key constraint</i></u> on Manages.
 <div style="margin-left: auto; margin-right: auto; width: 70%"> 
 
-![Entity Set 2](Images\CT\CT_4.png) </div>
+![Entity Set 2](./Images/CT\CT_4.png) </div>
 #### Manages(ssn: string, <u>did</u>: string, since: date)
 Map relationship to a table:
 - Note that did is the key now!
@@ -131,7 +131,7 @@ Does every department have a manager?
     - Every <i>did</i> value in Departments table must appear in a row of the Manages table (with a non-null ssn value!).
 <div style="margin-left: auto; margin-right: auto; width: 70%"> 
 
-![Entity Set 3](Images\CT\CT_4.png) </div>
+![Entity Set 3](./Images/CT\CT_4.png) </div>
 ##### Relational Schema:
 ##### Manager(<u>ssn</u>: string, name: string, lot:number)
 ##### <span style="color:red">Dept_Mgr(<u>did</u> : string, dname : string, budget : number, since: date, ssn : string)</span>
@@ -155,7 +155,7 @@ Does every department have a manager?
 ### Recursive Relationship with Roles
 <div style="margin-left: auto; margin-right: auto; width: 30%"> 
 
-![Entity Set 4](Images\CT\CT_5.png) </div>
+![Entity Set 4](./Images/CT\CT_5.png) </div>
 
 <span style="color:red">Rename attribute by adding role</span>
 ```SQL
@@ -174,7 +174,7 @@ Does every department have a manager?
     -  Weak entity set must have total participation in this <span style="color:blue">identifying</span> relationship set.
     <div style="margin-left: auto; margin-right: auto; width: 60%"> 
     
-    ![SQL Table 2](Images\CT\CT_6.png) </div>
+    ![SQL Table 2](./Images/CT\CT_6.png) </div>
 ---
 ### Translating Weak Entity Sets
 - Weeak entity set and identifying relationship set are translated into a single table.
@@ -192,7 +192,7 @@ CREATE TABLE Dep_Policy (
 ### ISA ('is a') Hierarchies
 <div style="margin-left: auto; margin-right: auto; width: 60%"> 
 
-![ISA Entity Set](Images\CT\CT_7.png) </div>
+![ISA Entity Set](./Images/CT\CT_7.png) </div>
 Write down relational schema
 
 ##### Employee(<u>ssn</u>:string, name:string, lot:number)
@@ -224,7 +224,7 @@ CREATE TABLE Contract_Emps (
 ### Practice
 <div style="margin-left: auto; margin-right: auto; width: 80%"> 
 
-![SQL Table 3](Images\CT\CT_8.png) </div>
+![SQL Table 3](./Images/CT\CT_8.png) </div>
 Trail(<u>sid</u>:string, name:string, distance:number, rating:number)
 Tail_Belong(<u>sid</u>:string, <u>pname</u>:string, name:string, distance:number, rating:number)
 Park(<u>pname</u>:string)

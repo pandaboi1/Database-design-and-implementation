@@ -31,7 +31,7 @@ Center using HTML auto margins
 ```HTML
 <div style="margin-left: auto; margin-right: auto; width: 90%"> 
 
-![Alt Text](Images\relative_path) </div>
+![Alt Text](./Images/relative_path) </div>
 ```
 ---
 # Indent

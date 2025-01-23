@@ -6,7 +6,7 @@
 
 <div style="margin-left: auto; margin-right: auto; width: 40%"> 
 
-![ERD](Images\RM1_1.png) </div>
+![ERD](./Images/RM1_1.png) </div>
 
 ---
 #### Relations
@@ -50,7 +50,7 @@ Of course, we don’t count the row of <span style="color:red">the attribute nam
 ### TableName(Attrl : domain, Attr2 : domain, ... )
 <div style="margin-left: auto; margin-right: auto; width: 70%"> 
 
-![ERD](Images\RM1_2.png) </div>
+![ERD](./Images/RM1_2.png) </div>
 
 #### 1. Customer(name : string, <u>SSN</u> : string, DoB : date)
 <div style="margin-left: auto; margin-right: auto; width: 265px">
@@ -88,7 +88,7 @@ Of course, we don’t count the row of <span style="color:red">the attribute nam
 #### <br><span style="Background-color: black;; color: white; padding: 10px; border-radius: 12px; margin: px"> Practice </span>
 <div style="margin-left: auto; margin-right: auto; width: 90%"> 
 
-![ERD](Images\RM1_3.png) </div>
+![ERD](./Images/RM1_3.png) </div>
 
 1. **NationalPark(<u>Name</u>:string,State:string, est.:date)**
 2. **Trail(Name : string, <u>id</u> : number, Length : number)**
