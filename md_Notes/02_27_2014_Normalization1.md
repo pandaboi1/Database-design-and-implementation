@@ -19,7 +19,7 @@
 |Great Smoky Mountain|TN|1934|
 |Acadia|ME|1916|
 </div>
-<div style="margin-left: auto; margin-right: auto; width: 80%"><br><img alt="Maps" src="./Images/N1\N1_1.png"></img><br></div>
+<div style="margin-left: auto; margin-right: auto; width: 80%"><br><img alt="Maps" src="./Images/N1/N1_1.png"></img><br></div>
 
 ##### Degree: 3, # of columns
 ##### Cardinality: 3, # of rows (NOT including Title Names)
@@ -27,7 +27,7 @@
 ---
 ### Question 
 - How do you feel about this database design?
-<div style="margin-left: auto; margin-right: auto; width: 80%"><br><img alt="Entity Set 1" src="./Images/N1\N1_2.png"></img><br><br></div>
+<div style="margin-left: auto; margin-right: auto; width: 80%"><br><img alt="Entity Set 1" src="./Images/N1/N1_2.png"></img><br><br></div>
 
 <span style="color:red">AllTrail(<u>Pname</u>:str, State:str, Est:date, <u>tid</u>:str, length:num, rating:num, difficulty:str)</span>
 
@@ -36,8 +36,8 @@ Degree = 7 <br>Cardinality = 264+373+224 = 861 <br>Size = 6027
 
 ---
 ### What about this?
-<div style="margin-left: auto; margin-right: auto; width: 80%"> <img alt="Entity Set 2" src="./Images/N1\N1_3.png"></img></div>
-<div style="margin-left: auto; margin-right: auto; width: 80%"><br><img alt="Maps" src="./Images/N1\N1_1.png"></img><br></div>
+<div style="margin-left: auto; margin-right: auto; width: 80%"> <img alt="Entity Set 2" src="./Images/N1/N1_3.png"></img></div>
+<div style="margin-left: auto; margin-right: auto; width: 80%"><br><img alt="Maps" src="./Images/N1/N1_1.png"></img><br></div>
 
 ### What is the ***degree***, ***cardinality***, and ***size***?
 
@@ -48,7 +48,7 @@ Degree = 7 <br>Cardinality = 264+373+224 = 861 <br>Size = 6027
 #### 3405 (Trail) + 9 (AllTrail) = **3405 Total Size**
 ---
 ### Redundancy is the Enemy
-<div style="margin-left: auto; margin-right: auto; width: 90%"> <img alt="Too long of Entity Set" src="./Images/N1\N1_4.png"></img></div>Normalization
+<div style="margin-left: auto; margin-right: auto; width: 90%"> <img alt="Too long of Entity Set" src="./Images/N1/N1_4.png"></img></div>Normalization
 - Consider relation obtained
     - Hourly_Emps(ssn, name, lot, rating, hrly_wage, hrs_worked)
     - Call it **SNLRHW**
